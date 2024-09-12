@@ -1,60 +1,39 @@
-# PC Building Simulator (Proyecto) - Documentación
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=fff) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?logo=intellij-idea&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff) ![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?logo=sqlite&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)
 
-> [!IMPORTANT]
->
-> Este proyecto no trata sobre el videojuego del mismo nombre, si no en una aplicación que ayude a los jugadores a gestionar sus partidas.
+# PC Building Helper - Gestor de Pedidos para PC Building Simulator
 
-## Introducción
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/fc2afb4d-f239-4c08-bb64-19587d316efe"></img>
+</div>
 
-Este proyecto consiste en un sistema de gestión de tareas del videojuego PC Building Simulator.
+---
 
-Consta de:
+`PC Building Helper` es una aplicación de escritorio desarrollada en **JavaFX** que facilita la gestión de pedidos para jugadores del juego PC Building Simulator.
 
-- Una **base de datos** con los datos de los componentes de ordenador.
-- Una **API** desarrollada con SpringBoot JPA para gestionar las operaciones
-- Una **aplicación móvil** desarrollada con Flutter para que los usuarios interactúen con el sistema.
+La app permite mantener un registro detallado de los componentes y tareas asociadas a los pedidos de cada cliente del juego.
 
-## Arquitectura general
+Este proyecto también cuenta con una **API** desarrollada en **Spring Boot** para la obtención de componentes, y utiliza una base de datos local para gestionar la información de los pedidos y usuarios.
 
-![Diagrama de despliegue](https://www.plantuml.com/plantuml/png/RP112eD034NtSuhWtZkek6cX8BWiNGnEQWFJYMHIDwMdyWXUh5gAj3BPXFpyzmCfebhHnzqRZrS5PH3gRmgE13ib3iO4TWXPYpAIOu5bg6p4jTTMEMRmDB3K-K-zc5UAB9l3vcy7eT13nQnmRCeVegOuS2IbaU4qJoFv3Ie7JvtjQ9x2T_NXTiSXpnFvUsMrfHCB36xvoHi0)
+La API está hosteada en [Render](www.render.com), y la base de datos SQL en [CleverCloud](https://www.clever-cloud.com/), ambos con sus **planes gratuitos y sus limitaciones**.
 
-<details>
+## Requisitos
 
-<summary>Ver código (PlantUML)</summary>
+- **Java 21+** instalado en el sistema
+- **Sistema Operativo**: Windows 7/8/10/11 (Probado en Windows 10) - Linux
 
-```plantuml
-left to right direction
+## Instalación
 
-node "Servidor de Base de Datos" {
-    [Base de Datos]
-}
+1. Descarga el archivo instalador desde [aquí]() o desde la página de [`releases`]().
+2. Ejecuta el instalador y sigue las instrucciones. La aplicación se instalará por defecto en la ruta `C:\Users\User\AppData\Local\Programs\PC Building Simulator - Helper`.
+3. Asegúrate de tener Java instalado en tu sistema. Si no lo tienes, puedes descargarlo desde la página oficial de [Oracle](https://www.oracle.com/java/technologies/downloads/#jdk21).
+4. Una vez instalado, ejecuta la app desde el acceso directo creado en el escritorio.
 
-node "Servidor de API" {
-    [Spring Boot JPA]
-}
+### Capturas de pantalla
 
-node "Dispositivo Móvil" {
-    [Aplicación Móvil]
-}
+![Ventana Pedidos](https://github.com/user-attachments/assets/e5357220-486e-4bb3-842d-6dc78f7d3f2f)
 
-[Base de Datos] -- [Spring Boot JPA]
-[Spring Boot JPA] -- [Aplicación Móvil]
-```
+![Ventana Componentes](https://github.com/user-attachments/assets/3bdf7bc5-a333-45a2-9272-342ea400c037)
 
-</details>
+## Licencia
 
-> [!NOTE]
->
-> Si se fuese a poner en desarrollo se usarían 2 servidores. Al ser un proyecto personal tan solo es una representación.
-
-## Base de datos
-
-[Para ver más información haz clic aquí](https://github.com/Proyecto-Helper-PC-Building-Simulator/database)
-
-## API
-
-[Para ver más información haz clic aquí](https://github.com/Proyecto-Helper-PC-Building-Simulator/api)
-
-## Aplicación móvil
-
-[Para ver más información haz clic aquí](https://github.com/Proyecto-Helper-PC-Building-Simulator/app_flutter)
+Este proyecto esta licenciado bajo la licencia [Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/).
