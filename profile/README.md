@@ -23,7 +23,7 @@ La API está hosteada en [Render](www.render.com), y la base de datos SQL en [Cl
 
 ## Instalación
 
-1. Descarga el archivo instalador desde [aquí]() o desde la página de [`releases`]().
+1. Descarga el archivo instalador desde [aquí](https://github.com/Proyecto-Helper-PC-Building-Simulator/app_javafx/releases/download/v1.0.0/pc-building-helper-installer.exe) o desde la página de [`releases`](https://github.com/Proyecto-Helper-PC-Building-Simulator/app_javafx/releases).
 2. Ejecuta el instalador y sigue las instrucciones. La aplicación se instalará por defecto en la ruta `C:\Users\User\AppData\Local\Programs\PC Building Simulator - Helper`.
 3. Asegúrate de tener Java instalado en tu sistema. Si no lo tienes, puedes descargarlo desde la página oficial de [Oracle](https://www.oracle.com/java/technologies/downloads/#jdk21).
 4. Una vez instalado, ejecuta la app desde el acceso directo creado en el escritorio.
