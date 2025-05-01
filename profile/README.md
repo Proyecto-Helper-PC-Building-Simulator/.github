@@ -16,18 +16,6 @@ Este proyecto también cuenta con una **API** desarrollada en **Spring Boot** pa
 
 La API está hosteada en [Render](www.render.com), y la base de datos SQL en [CleverCloud](https://www.clever-cloud.com/), ambos con sus **planes gratuitos y sus limitaciones**.
 
-## Requisitos
-
-- **Java 21+** instalado en el sistema
-- **Sistema Operativo**: Windows 7/8/10/11 (Probado en Windows 10) - Linux
-
-## Instalación
-
-1. Descarga el archivo instalador desde [aquí](https://github.com/Proyecto-Helper-PC-Building-Simulator/app_javafx/releases/download/v1.0.0/pc-building-helper-installer.exe) o desde la página de [`releases`](https://github.com/Proyecto-Helper-PC-Building-Simulator/app_javafx/releases).
-2. Ejecuta el instalador y sigue las instrucciones. La aplicación se instalará por defecto en la ruta `C:\Users\User\AppData\Local\Programs\PC Building Simulator - Helper`.
-3. Asegúrate de tener Java instalado en tu sistema. Si no lo tienes, puedes descargarlo desde la página oficial de [Oracle](https://www.oracle.com/java/technologies/downloads/#jdk21).
-4. Una vez instalado, ejecuta la app desde el acceso directo creado en el escritorio.
-
 ### Capturas de pantalla
 
 ![Ventana Pedidos](https://github.com/user-attachments/assets/e5357220-486e-4bb3-842d-6dc78f7d3f2f)
